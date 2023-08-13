@@ -5,14 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	
-	for (int n = 0; n <= 9; n++)
+	int n;
+
+	for (n ='0'; n <= '9'; n++)
 	{
-		putchar(n + '0');
+		putchar(n);
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
