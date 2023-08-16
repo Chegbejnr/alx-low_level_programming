@@ -1,4 +1,4 @@
-#include <main.c>
+#include <unstid.h>
 /**
  * main - Entry point
  * Description: prints _putchar follwoed by a new line.
