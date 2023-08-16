@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_baur - Prints the minute of the day
+ * jack_baur - Prints the minute of a day
  *
  * Return: no return
  */
