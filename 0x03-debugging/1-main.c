@@ -4,20 +4,21 @@
  * main - causes an infinite loop
  * Return: 0
  */
-
 int main(void)
 {
-	printf("infinite loop incoming :(\n");
+    int i;
 
-	int i = 0;
+    printf("Infinite loop incoming :(\n");
 
-	while (i < 10)
-	{
-		putchar(i);
-		i++;
-	}
+    i = 0;
 
-	printf("infinite loop avoided! \\o/\n");
+    /*while (i < 10)*/
+    /*|*/
+    /*      putchar(i);*/
+    /*|*/
 
-	return (0);
+    printf("Infinite loop avoided! \\o/\n");
+
+    return (0);
 }
+
