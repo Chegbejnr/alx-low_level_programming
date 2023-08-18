@@ -18,7 +18,7 @@ int main(void)
 
 	month = 4;
 
-	day = 1;
+	day = 01;
 
 	year = 1997;
 
