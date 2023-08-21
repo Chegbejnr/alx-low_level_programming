@@ -19,12 +19,12 @@ void puts2(char *str)
 		length++;
 	}
 	t = length - 1;
-	for (o = 0; 0 <= t; o++)
+	for (o = 0; 0 < length; o++)
 	{
 		if (o % 2 == 0)
-	{
-		_putchar(str[o]);
+		{
+			_putchar(sr[o]);
+		}
 	}
-	}
-	_putchar('\n');
+	_putchar('\n')
 }
