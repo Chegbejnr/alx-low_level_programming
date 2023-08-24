@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /**
- * Line of code wriiten here...
- * Remember:
- * @n: value to print
- * Return: o always Success
- */
+ * main - Entry Point
+ *
+ * Description: This program demonstrates a specific behavior.
+ *
+ * Return: Always 0 (Success)
+
 int main(void)
 {
 	int n;
@@ -12,22 +14,18 @@ int main(void)
 	int *p;
 
 	a[2] = 1024;
-
 	p = &n;
-
 	/**
-	 * line of code written here...
+	 * wrte you line of code here...
 	 * Remember:
-	 * - no use of a
-	 * - do not modify p
-	 * -  use one statement only
-	 * - not allowed to code anthing else
+	 * - you are not allowed to use a
+	 *   you are not allowed to modify p
+	 *   only make one statement
+	 *   you are not allowed to code anything else than this line of code
 	 */
-
-	*(int *)((char *)&a + (sizeof(int) * 2)) = 98;
-	/* ...This prints 98\n */
-
-	printf("a[2] = %\n", a[2]);
-
+	*(p + 5) = 98;
+	/* ... so that this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
+
