@@ -11,6 +11,11 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
+	if (n < 0)
+	{
+		return dest;
+	}
+
 	int i, j;
 	i = 0;
 	while (dest[i] != '\0')
