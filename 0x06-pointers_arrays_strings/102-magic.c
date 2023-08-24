@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry Point
- *
- * Description: This program demonstrates a specific behavior.
- *
- * Return: Always 0 (Success)
-
 int main(void)
 {
 	int n;
