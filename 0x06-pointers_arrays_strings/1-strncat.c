@@ -3,11 +3,11 @@
 /**
  *  _strncat - concatenate two strings
  *  using at most n bytes from src
- *  @dest: input value
- *  @src: input value
- *  @n: input value
+ *  @dest: destination buffer
+ *  @src: source string
+ *  @n: maximum number of bytes to append from src
  *
- *  Return: dest
+ *  Return: pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
